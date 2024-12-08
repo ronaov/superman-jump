@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Parkinsans:wght@300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alata", sans-serif;
+}
+
+#game {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+
+#sc {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#nv {
+  height: 80px;
+  width: 80px;
+  background-image: url('nv.png');
+  background-size: 200px;
+  background-position: center;
+  position: absolute;
+  left: 30px;
+}
+
+#vc {
+  width: 50px;
+  height: 70px;
+  background-image: url('rock.png');
+  background-position: center;
+  background-size: 65px;
+  position: absolute;
+  right: -50px;
+  display: none;
+  transition: 1.5s;
+}
+
+.jump {
+  animation: jump 0.5s;
+}
+
+#bd {
+  background: yellow;
+  padding: 20px;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 12px;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid black;
+}
+
+.tt {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+#st {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 60px;
+}
+
+#mhst {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: none;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#kst {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  transition: 0.3s ease;
+  transform: scale(0);
+}
+
+#kstp {
+  display: flex;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#cd {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.cdc {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border: 1px solid #222;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  width: 60px;
+}
+
+#x {
+  position: absolute;
+  right: -20px;
+  font-size: 30px;
+}
+
+
+h6 {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+#rq {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#click {
+  width: 50px;
+}

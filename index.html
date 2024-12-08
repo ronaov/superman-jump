@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<style id="style"></style>
+<body>
+  <div id="game">
+    <div id="sc">
+      <div id="diem" class="tt">Điểm: 0</div>
+      <div id="kyluc" class="tt">Kỷ lục: 0</div>
+      <div id="nv"></div>
+      <div id="vc"></div>
+      <div id="bd" onclick="bd()">BẮT ĐẦU</div>
+    </div>
+    <div id="rq">
+      <img src="click1.png" id="click">
+    </div>
+    <div id="st" onclick="mst()">
+      <i class='bx bx-pause' id="ps"></i>
+    </div>
+    <h6>version: 1.0.0.RonAndroid-7724</h6>
+    <div id="mhst">
+      <div id="kst">
+        <div id="kstp">
+          <span id="cd">Cài đặt</span>
+          <i class='bx bx-x-circle' id="x" onclick="cls()"></i>
+        </div>
+        <div id="nhac" class="cdc">
+          <span>Nhạc nền</span>
+          <button id="bnn">ON</button>
+        </div>
+        <div id="sfx" class="cdc">
+          <span>Hiệu ứng âm thanh</span>
+          <button id="bsfx">ON</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
